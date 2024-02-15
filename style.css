@@ -1,0 +1,487 @@
+/*
+ Theme Name:   CATT
+ Theme URI:    https://cattinmuebles.com
+ Description:  CATT Theme
+ Author:       Javier Enrique León 
+ Author URI:   http://enfokarte.com.pe/
+ Version:      1.0.0
+*/
+/*-------------------------------------------------------------- */
+/* Body */
+html {
+  font-size: 10px;
+}
+:focus {
+  outline: none;
+}
+button.navbar-toggler:focus {
+  outline: none;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #333;
+  opacity: 1;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #333;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #333;
+  opacity: 1;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #333;
+  opacity: 1;
+}
+img.alignleft {
+  float: left;
+  margin: 0 15px 15px 0;
+}
+img.alignright {
+  float: right;
+  margin: 0 0 15px 15px;
+}
+img.centered,
+.aligncenter {
+  display: block;
+  margin: 0 auto 30px;
+}
+/* Header */
+header {
+  background: #decc4d;
+  color: #7e8c99;
+  font-size: 1.2rem;
+}
+header .row {
+  height: 50px;
+}
+header .fas, header .fab {
+  font-size: 1.6rem;
+}
+a.navbar-brand.py-4 img {
+    width: 200px;
+}
+header a {
+  height: 50px;
+  border-left: solid 1px #333;
+  color: #333;
+}
+header a:hover {
+  color: #000;
+  text-decoration: none;
+}
+header .redes a {
+  border: none;
+}
+/* Nav */
+nav {
+  min-height: 122px;
+}
+a.nav-link {
+  padding: 0 15px !important;
+}
+.dropdown-menu.show {
+  font-size: 1.4rem;
+}
+/* Portada */
+.banner-home {
+  height: calc(100vh - 172px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner-home h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+a.gold {
+  background: #decc4d;
+  color: #fff;
+  border: solid 1px #decc4d;
+  transition: .4s;
+}
+a.white {
+  background: #fff;
+  color: #decc4d;
+  border: solid 1px #decc4d;
+  transition: .4s;
+}
+a.gold:hover {
+  background: #fff;
+  color: #decc4d;
+  text-decoration: none;
+}
+a.white:hover {
+  background: #decc4d;
+  color: #fff;
+  text-decoration: none;
+}
+.buscador {
+  background: #f5f5f5;
+}
+.buscador .row {
+  max-width: 1200px;
+}
+form#beautiful-taxonomy-filters-form {
+  display: flex;
+}
+.beautiful-taxonomy-filters-select-wrap.clearfix {
+  width: 100%;
+}
+.buscador label {
+  display: none;
+}
+.beautiful-taxonomy-filters-tax {
+  width: 33%;
+  float: left;
+}
+.beautiful-taxonomy-filters-tax select {
+  width: calc(100% - 30px);
+  margin: 0 15px;
+  height: 36px;
+  padding: 0 5px;
+  border: none;
+}
+button.beautiful-taxonomy-filters-button {
+  background: #decc4d;
+  color: #fff;
+  border: solid 1px #decc4d;
+  transition: .4s;
+  width: 220px;
+}
+button.beautiful-taxonomy-filters-button:hover {
+  background: none;
+  color: #decc4d;
+}
+.buscador .widget {
+  background: none;
+}
+.propiedades .container {
+  padding: 0;
+}
+h2 {
+  font-size: 3rem;
+}
+h2:after {
+  content: "-";
+  display: block;
+  line-height: 0;
+}
+.propiedades  h3 a {
+  font-size: 1.6rem;
+  color: #333;
+}
+.prop-img .distrito {
+  background: rgba(0, 0, 0, .5);
+  top: 5px;
+  color: #fff;
+  left: 5px;
+}
+.prop-img .precio {
+  background: #decc4d;
+  bottom: 5px;
+  color: #fff;
+  right: 5px;
+}
+.prop-img img, .novedades img{
+  transition: .4s;
+}
+.prop-img img:hover, .novedades img:hover {
+  opacity: .8;
+}
+.text-prom {
+  background: #decc4d;
+  font-size: 2.6rem;
+  color: #fff;
+  font-weight: bold;
+}
+.text-prom p {
+  margin: 0;
+}
+.novedades  h3 a {
+  font-size: 1.6rem;
+  color: #333;
+}
+.novedades h3 a:hover , .propiedades h3  a:hover  {
+  text-decoration: none !important;
+  color: #decc4d;
+}
+.novedades img {
+  width: 100%;
+}
+.novedades p {
+  line-height: 24px;
+  text-align: justify;
+  padding: 0 15px;
+}
+/* Pagina */
+.titulo {
+  background: #1f1f1f;
+  color: #fff;
+}
+h2.screen-reader-text {
+  display: none;
+}
+a.page-numbers {
+  background: #000;
+  color: #fff;
+  padding: 8px 12px;
+  margin: 0 3px;
+  transition: .4s;
+}
+a.page-numbers:hover {
+  background: #decc4d;
+  text-decoration: none;
+  color: #333;
+}
+span.page-numbers.current {
+  background: #decc4d;
+  color: #333;
+  padding: 8px 12px;
+  margin: 0 3px;
+}
+.titulo h1 {
+  font-size: 3rem;
+}
+.contenidos p {
+  text-align: justify;
+}
+.contenidos h3 {
+  color: #decc4d;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin: 15px 0 10px;
+}
+/* Taxonomy */
+.ammenities {
+  border-top: 1px solid #f3f3f3;
+}
+/* Sidebar */
+.widget {
+  background: #f6f8fa;
+}
+.widget h4 {
+  font-size: 2rem;
+  color: #333
+}
+.widget h4:after {
+  content: "—";
+    display: inline-block;
+    height: 6px;
+    color: #333;
+    width: 100%;
+    margin: 0px auto;
+}
+.widget ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.widget li {
+  padding: 10px 0;
+  border-bottom: 1px dashed #dde2e8;
+}
+.widget a {
+  color: #333;
+}
+.widget a:hover {
+  color: #decc4d;
+  text-decoration: none;
+}
+.row.detalles.p-4 {
+  background: #f8f8f8;
+}
+.detalles h4 {
+  border-bottom: 1px solid #decc4d;
+  font-size: 2.2rem;
+}
+.detalles .far {
+  color: #decc4d;
+  margin-right: 10px;
+}
+.mapa {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.mapa iframe {
+  border: none;
+}
+.precio.pb-5 {
+  font-size: 3rem;
+  color: #000;
+}
+.wa  span a {
+  background: #24a317;
+  padding: 4px 30px 4px 34px;
+  border-radius: 25px;
+  text-decoration: none !important;
+  transition: .4s;
+}
+.wa a {
+  color: #fff;
+	background: #decc4d;
+}
+.wa img {
+  transform: translateX(20px);
+}
+.wa a:hover {
+  text-decoration: none !important;
+  background: #333;
+}
+a.acf-rpw-img {
+  float: left;
+  margin-right: 15px;
+}
+.single .container p {
+  text-align: justify;
+}
+
+/* Footer */
+footer {
+  background: #1f1f1f;
+  color: #999;
+}
+footer .text a {
+  color: #999;
+}
+footer .text a:hover {
+  color: #decc4d;
+  text-decoration: none;
+}
+footer h4 {
+  font-size: 2rem;
+}
+.icon {
+  font-size: 3rem;
+  color: #decc4d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 20px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.social a {
+  color: #decc4d;
+  font-size: 3rem;
+  margin: 0 12px;
+}
+footer h4:after {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 15px;
+  background: #decc4d;
+  margin: 5px auto 0;
+}
+footer input[type="text"], footer input[type="tel"], footer input[type="email"], footer select {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 30px;
+  padding: 0 15px;
+  border: none;
+}
+footer textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+}
+footer input.wpcf7-form-control.wpcf7-submit {
+  width: 100%;
+  background: #decc4d;
+  border: solid 1px #decc4d;
+  height: 30px;
+  transition: .4s;
+}
+footer input.wpcf7-form-control.wpcf7-submit:hover {
+  background: none;
+  color: #decc4d;
+}
+.screen-reader-response {
+  display: none;
+}
+.wpcf7-response-output.wpcf7-validation-errors {
+  text-align: center;
+  margin-top: 10px;
+}
+span.wpcf7-form-control-wrap.tu-nombre {
+  position: relative;
+}
+span.wpcf7-not-valid-tip {
+  position: absolute;
+  right: 22px;
+  top: 6px;
+  color: #f00;
+}
+span.beautiful-taxonomy-filters-loader {
+  display: none;
+}
+li#beautiful-taxonomy-filters-widget-2 {
+  list-style: none;
+}
+
+
+/* Media querys */
+@media only screen and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 575px) {
+  .beautiful-taxonomy-filters-tax {
+    width: 100%;
+    margin: 10px 0;
+}
+form#beautiful-taxonomy-filters-form {
+  flex-wrap: wrap;
+}
+button.beautiful-taxonomy-filters-button {
+  width: 100%;
+  margin: 10px 15px 0;
+}
+.nav-item {
+  padding: 10px 0;
+}
+button.navbar-toggler {
+  margin-right: 15px;
+}
+.propiedades .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+}
+@media only screen and (max-width: 400px) {
+
+}
+.widget li {
+  display: inline-table;
+  width: 100%;
+}
+a.dropdown-item {
+  padding: 8px 10px;
+}
